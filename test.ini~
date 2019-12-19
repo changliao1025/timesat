@@ -1,0 +1,26 @@
+2,prms
+0,single dataset
+/scratch/rice/l/liao46/rice/phd/prms/huc819040507/analysis/timesat/prms_watershed_discharge.txt, watershed daily total discharge
+/scratch/rice/l/liao46/rice/phd/prms/huc819040507/analysis/timesat/timesat_watershed_discharge.txt, timesat format file
+31,
+1,
+12,
+1,
+2015,
+1980,
+0, byte order
+1, column end
+1, column start
+0, image type
+1, row end
+1, row start
+2, spike method
+0, spike value
+388, ncolumn
+365, npoint
+310, nrow
+1, max value
+0, min value
+/scratch/rice/l/liao46/rice/phd/prms/huc819040507/analysis/timesat/filelist.txt, file list
+/scratch/rice/l/liao46/rice/phd/prms/huc819040507/analysis/timesat/timesat_watershed_discharge.set, file setting
+test, job_file

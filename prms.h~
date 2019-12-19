@@ -1,0 +1,38 @@
+#pragma once
+
+
+///===================================
+#include <algorithm>
+#include <iostream>
+#include <string>
+#include <vector>
+#include <fstream>
+#include <sstream>
+#include <iterator>
+
+///==========================
+#include "system.h"
+#include "date.h"
+#include "conversion.h"
+
+
+using namespace std;
+
+class prms
+{
+ public:
+  prms(void);
+  ~prms(void);
+  int prepare_prms_daily_file(
+                                 std::string sFilename_in,
+                                 std::string sFilename_out
+                                 );
+
+  int analyze_prms_seasonality(
+                               std::string sFilename_in,
+                               std::string sFilename_out
+                               );
+
+
+
+};
